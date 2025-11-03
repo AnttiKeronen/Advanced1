@@ -9,47 +9,48 @@ body {
   margin: 0 auto;
   padding: 10px;
 }
-.Itemi {
+.wiki-item {
   background: #fff;
   margin: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   border-radius: 10px;
   overflow: hidden;
 }
-.headeriItemii {
+.wiki-header {
   font-size: 24px;
   margin: 0;
   padding: 10px;
   background: #f5f5f5;
   text-align: center;
 }
-.Iteminsisalto {
+.wiki-content {
   padding: 10px;
 }
-.Iteminteksti {
+.wiki-text {
   line-height: 1.5;
   margin-bottom: 10px;
 }
-.imgcontaineri {
+.img-container {
   text-align: center;
 }
-.ItemiImg {
+.wiki-img {
   width: 100%;
   border-radius: 5px;
 }
 @media (min-width: 600px) {
-  .Iteminsisalto {
+  .wiki-content {
     display: flex;
     flex-direction: row-reverse;
   }
-  .Iteminteksti,
-  .imgcontaineri {
+  .wiki-text,
+  .img-container {
     min-width: 50%;
     max-width: 50%;
   }
-  .imgcontaineri {
+  .img-container {
     padding: 10px;
   }
 }
+
 
 
