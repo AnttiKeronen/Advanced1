@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.Itemi {
+  background: #fff;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.headeriItemii {
+  font-size: 24px;
+  margin: 0;
+  padding: 10px;
+  background: #f5f5f5;
+  text-align: center;
+}
+.Iteminsisalto {
+  padding: 10px;
+}
+.Iteminteksti {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.imgcontaineri {
+  text-align: center;
+}
+.ItemiImg {
+  width: 100%;
+  border-radius: 5px;
+}
+@media (min-width: 600px) {
+  .Iteminsisalto {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .Iteminteksti,
+  .imgcontaineri {
+    min-width: 50%;
+    max-width: 50%;
+  }
+  .imgcontaineri {
+    padding: 10px;
+  }
+}
+
+
